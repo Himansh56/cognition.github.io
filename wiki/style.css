@@ -1,0 +1,129 @@
+*{
+	
+	font-family: 'Roboto', sans-serif;
+}
+.sch {
+	float: right;
+}
+ 
+.back {
+	background-color: #DCDCDC;
+}	
+/*.hubba {
+	background-color: #DCDCDC;
+}*/`
+.speech {border: 1px solid #DDD; width: 300px; padding: 0; margin: 0}
+  .speech input {border: 0; width: 240px; display: inline-block; height: 30px;}
+  .speech img {float: right; width: 40px }
+  .col
+   {
+   	margin-right: 60px;
+   	margin-left: 30px;
+   }
+   @keyframes hr 
+{
+	0%
+	{
+		width: 100%;
+	}
+	
+	50%
+	{
+		width: 1%;
+	}
+	
+	100%
+	{
+		width: 100%;
+	}
+}
+.hrf
+{
+	border: 0;
+	height: 2px;
+	background-color: #ffcc00;
+	
+	animation-name: hr;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+}
+.para {
+	display: block;
+	margin-right: 60;
+	margin-left: 40;
+}
+.quoteF
+{
+	padding: 3em 0;
+	color: #fff;
+	font-family: Bodoni MT;
+}
+.sideA>table
+{
+	background-color: #000;
+}
+.textTD
+{
+	padding: 0 2em;
+	color: #fff;
+}
+.tCol
+{
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	background-color: #111;
+}
+
+.tCol>div
+{
+	display: inline-block;
+	text-align: center;
+	padding: 3em 2em;
+}
+
+.numh1
+{
+	font-size: 70px;
+	font-family: Bodoni MT;
+	margin: 0;
+	color: #fff;
+}
+
+.numh6
+{
+	font-size: 20px;
+	margin: 0;
+	color: #fff;
+}
+
+.textCol
+{
+	color: #000;
+	text-align: center;
+}
+
+.textCol>p
+{
+	display: inline-block;
+	text-align: justify;
+	width: 25%;
+	padding: 4em 2em;
+	font-size: 14px;
+}
+
+.textCol>p:hover
+{
+	transform: scale(1.3);
+}
+footer
+{
+	background-color: #111;
+	color: #aaa;
+	font-style: italic;
+	font-size: 10px;
+	text-align: center;
+	width: 100%;
+	padding: 1em 0;
+}
